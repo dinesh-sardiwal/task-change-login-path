@@ -1,0 +1,7 @@
+custom_login_lib:
+  version: 1.x
+  js:
+    js/formlibrary.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupalSettings

@@ -1,0 +1,6 @@
+services:
+  custom_login_path.custom_path_processor:
+    class: Drupal\custom_login_path\CustomLoginPathProcessor
+    tags:
+      - { name: path_processor_inbound, priority: 290 }
+      - { name: path_processor_outbound, priority: 100 }

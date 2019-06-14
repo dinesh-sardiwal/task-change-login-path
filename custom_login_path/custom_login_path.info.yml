@@ -1,0 +1,7 @@
+name: Custom Login Path
+description: customize your login path
+package: 'Custom'
+type: module
+core: 8.x
+configure: custom_paths.admin
+author: Dinesh Sardiwal

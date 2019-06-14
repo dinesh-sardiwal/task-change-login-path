@@ -1,0 +1,5 @@
+custom_login_paths.admin:
+  title: 'Custom login Path'
+  description: 'Configure Custom Login Path module'
+  parent: system.admin_config_system
+  route_name: custom_paths.admin

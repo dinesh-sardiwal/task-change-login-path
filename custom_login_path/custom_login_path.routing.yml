@@ -1,0 +1,7 @@
+custom_paths.admin:
+  path: '/admin/config/system/custom-paths'
+  defaults:
+    _form: '\Drupal\custom_login_path\Form\CustomLoginPathSettingForm'
+    _title: 'Custom Login Paths'
+  requirements:
+    _permission: 'administer site configuration'
